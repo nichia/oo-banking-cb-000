@@ -13,5 +13,5 @@ end
 
 desc "A Console: rake console"
 task :console do
-  pry.start
+  Pry.start
 end
